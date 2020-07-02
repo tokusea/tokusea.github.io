@@ -4,23 +4,67 @@ body {
     margin-right: auto;
     margin-left : auto;
 }
+
+a {
+    text-decoration: none;
+}
+
 /* header */
+header {
+    margin-top: 20px;
+}
+h1.logo {
+    width: 50%;
+    max-width: 300px;
+    float: left;
+    margin: 40px 0;
+    /* text-align: center; */
+}
+
+h1 a {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003366;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+h1 a:hover {
+    color: #224488;
+}
+
+.catalogue-line {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-top: 0.2rem solid #353535;
+    display: block;
+    width: 3rem;
+    transition: all 0.3s ease-out;
+}
+h1:hover .catalogue-line {
+    width: 5rem;
+}
+
 .social {
     width: 20%;
     float: right;
 }
 
-nav > ul {
+nav {
+    width: 80%;
+}
+
+nav ul {
     float: left;
     overflow: hidden;
 }
-nav > li {
+nav li {
     float: left;
     width: 200px;
     list-style-type: none;
 }
  
-nav > a  {
+nav a  {
     display: block;
     padding: 20px 0;
     text-align: center;
@@ -30,7 +74,7 @@ nav > a  {
     color: #fff;
 }
  
-a:hover {
+nav a:hover {
     background-color: #f7a;
 }
 
