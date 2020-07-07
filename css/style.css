@@ -3,6 +3,7 @@ body {
     width:80%;
     margin-right: auto;
     margin-left : auto;
+    margin-top: 20px;
 }
 
 a {
@@ -11,7 +12,6 @@ a {
 
 /* header */
 header {
-    margin-top: 20px;
 }
 h1.logo {
     width: 50%;
