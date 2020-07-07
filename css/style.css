@@ -50,6 +50,11 @@ h1:hover .catalogue-line {
     float: right;
 }
 
+.social li {
+    float: left;
+    text-decoration: none;
+}
+
 nav {
     width: 80%;
 }
