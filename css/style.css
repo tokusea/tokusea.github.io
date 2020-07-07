@@ -48,13 +48,15 @@ h1:hover .catalogue-line {
 .social {
     width: 20%;
     float: right;
-    height: 40px;
+    margin: 40px 0;
 }
 
 .social li {
     float: left;
     list-style: none;
-    width: 10%;
+    width: 40%;
+    margin: 0, 5%;
+    /* height: 40px; */
 }
 
 nav {
