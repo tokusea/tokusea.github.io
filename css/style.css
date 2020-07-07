@@ -51,6 +51,10 @@ h1:hover .catalogue-line {
     margin: 40px 0 20px 0;
 }
 
+.social ul{
+    margin: 0;
+}
+
 .social li {
     float: left;
     list-style: none;
