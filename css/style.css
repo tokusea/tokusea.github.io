@@ -56,11 +56,12 @@ h1:hover .catalogue-line {
     list-style: none;
     width: 40%;
     margin: 0, 5%;
-    /* height: 40px; */
+    height: 40px;
 }
 
 nav {
     width: 80%;
+    float: right;
 }
 
 nav ul {
@@ -69,7 +70,7 @@ nav ul {
 }
 nav li {
     float: left;
-    width: 200px;
+    width: 100px;
     list-style-type: none;
 }
  
