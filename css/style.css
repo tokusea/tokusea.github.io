@@ -17,7 +17,7 @@ h1.logo {
     width: 50%;
     max-width: 300px;
     float: left;
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
     /* text-align: center; */
 }
 
@@ -48,7 +48,7 @@ h1:hover .catalogue-line {
 .social {
     width: 20%;
     float: right;
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
 }
 
 .social li {
@@ -60,32 +60,38 @@ h1:hover .catalogue-line {
 }
 
 nav {
-    width: 80%;
+    width: 60%;
     float: right;
+    margin-right: auto;
+    clear: both;
 }
 
 nav ul {
     float: left;
     overflow: hidden;
+    margin: 0;
 }
 nav li {
     float: left;
-    width: 100px;
+    width: 150px;
     list-style-type: none;
 }
  
 nav a  {
     display: block;
+    /* margin: 0, 5px; */
     padding: 20px 0;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
-    background-color: #f57;
-    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    transition: all 0.3s ease-out;
 }
  
 nav a:hover {
-    background-color: #f7a;
+    color: #666666;
+    transform: scale(1.1);
 }
 
 /* main */
