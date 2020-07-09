@@ -1,6 +1,6 @@
 /* 全体 */
 body {
-    width:70%;
+    width:60%;
     margin-right: auto;
     margin-left : auto;
     margin-top: 20px;
@@ -111,7 +111,7 @@ main{
 
 .post-info {
     font-size: .8em;
-    
+    color: #888888;
 }
 
 #about h1 {
@@ -123,7 +123,21 @@ main{
 #about h2 {
     font-size: 1.5em;
     font-weight: bold;
-    margin: 15px 0;
+    margin: 20px 0;
+}
+
+#about p {
+    line-height: 1.5em;
+}
+
+.career ul {
+    padding-left: 40px;
+}
+
+.career li {
+    list-style: disc;
+    line-height: 1.5em;
+    padding-left: 20px;
 }
 
 /* footer */
