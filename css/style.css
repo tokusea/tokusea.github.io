@@ -109,8 +109,26 @@ main{
     clear: both;
 }
 
+.post-info {
+    font-size: .8em;
+    
+}
+
+#about h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#about h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
 /* footer */
 footer {
+    margin: 10px 0;
     border-top: 1px solid #888;
 }
 
@@ -118,5 +136,5 @@ footer p {
     color: #555;
     font-size: .8rem;
     text-align: center;
-    margin: 10px 0;
+    margin: 20px 0;
 }
