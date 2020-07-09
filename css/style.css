@@ -59,13 +59,18 @@ h1:hover .catalogue-line {
 .social li {
     float: left;
     list-style: none;
-    width: 40%;
-    margin: 0, 5%;
+    /* width: 40%; */
+    margin: 0, 10px;
     height: 100%;
 }
 
+.social image{
+    width: 50px;
+    padding: 5px;
+}
+
 nav {
-    width: 60%;
+    /* width: 60%; */
     float: right;
     margin-right: auto;
     clear: both;
