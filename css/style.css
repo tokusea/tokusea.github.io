@@ -104,6 +104,8 @@ nav a:hover {
 }
 
 /* main */
-
+main{
+    clear: both;
+}
 
 /* footer */
