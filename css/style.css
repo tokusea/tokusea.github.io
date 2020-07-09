@@ -111,7 +111,7 @@ main{
 
 .post-info {
     font-size: .8em;
-    color: #888888;
+    color: #aaaaaa;
 }
 
 #about h1 {
@@ -128,6 +128,14 @@ main{
 
 #about p {
     line-height: 1.5em;
+}
+
+#about a {
+    color: #4a9ae1;
+}
+
+#about a:hover {
+    text-decoration: underline;
 }
 
 .career ul {
