@@ -126,6 +126,12 @@ main{
     margin: 20px 0;
 }
 
+#about h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
 #about p {
     line-height: 1.5em;
 }
@@ -144,6 +150,24 @@ main{
 
 .career li {
     list-style: disc;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.past {
+    line-height: 1.5em;
+}
+.past p {
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.strength ol{
+    list-style-type: decimal;
+    padding-left: 40px;
+}
+
+.strength li {
     line-height: 1.5em;
     padding-left: 20px;
 }
