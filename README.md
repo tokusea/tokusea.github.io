@@ -11,9 +11,10 @@ This is my profile page made with github pages.
 自分の考えをまとめて公開するときのページ
 
 ### portforio
-なにかポートフォリオがあれば乗っけるページ
+ポートフォリオがあれば乗っけるページ
+*一旦なし
 
 ### contact
 連絡先が書いてあるページ
+Calendlyとか
 
-## 何を書こうかな
