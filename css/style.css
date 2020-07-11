@@ -158,8 +158,13 @@ main{
     line-height: 1.5em;
 }
 .past p {
-    line-height: 2em;
+    line-height: 2.5em;
     font-weight: bold;
+}
+
+.text {
+    padding-left: 1em;
+    margin-bottom: 10px;
 }
 
 .strength ol{
